@@ -1,7 +1,7 @@
 # Ex.No.9 Exploration of Prompting Techniques for Video Generation
 
-# Date:
-# Reg. No.:
+# Name:Piyush kumar
+# Reg. No.:212223220075
 
 # Aim:
 To demonstrate the ability of text-to-Video generation tools to reproduce an existing Video by crafting precise prompts. The goal is to identify key elements within the Video and use these details to generate an Video as close as possible to the original.
@@ -48,6 +48,48 @@ Tools/LLMs for Video Generation:
 2.	The Final Generated Video: The Video created using your refined prompt.
 3.	Prompts Used: The text prompts created during the experiment.
 4.	Comparison Report: A report highlighting the differences and similarities between the original and generated Videos, along with any adjustments made to the prompt.
+# Prompt
+# prompt1
+"A cinematic video of a serene mountain landscape at sunrise, with soft pink and orange skies. Clouds slowly move across snow-capped peaks while a gentle river flows in the foreground. Birds fly across the sky, and pine trees sway lightly in the wind. Smooth camera pan from left to right, ultra-realistic lighting, 4K, highly detailed, calm and peaceful mood."
+# video
+https://github.com/user-attachments/assets/195730f3-122b-430a-b0a8-7f5d6a963fc8
+# Prompt 2
+"A humorous meme-style scene showing an RCB fan sitting in front of a TV during the final over of a cricket match. The fan is extremely tense, holding a pillow, sweating nervously while the scoreboard shows a close chase. Suddenly the scene cuts to disappointment as RCB loses again. Add dramatic zoom-in, exaggerated expressions, and text overlay saying “RCB fans be like: ‘This year is our year’… every year."
+# Video
+
+
+https://github.com/user-attachments/assets/b1709489-2fda-4213-a480-89a81defc70a
+
+# Prompt 3
+" A sleek Lexus sedan parked in a modern city at night with neon lights reflecting on its glossy surface. The car slowly drives through a wet road, reflections of skyscrapers visible on the ground. Cinematic lighting, shallow depth of field, ultra-realistic, 4K, slow camera tracking shot."
+
+# Video
+
+
+https://github.com/user-attachments/assets/3f427365-6a89-47d5-862d-b0414ce48c38
+
+# Overview Report
+# Gemini
+| **Technique**              | **Description**                                   | **How to Use**                              | **Example Prompt**                                          |
+| -------------------------- | ------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
+| Clarity & Specificity      | Prompts should be clear and unambiguous           | Clearly state what you want                 | “Explain photosynthesis in simple terms for students.”      |
+| Context Providing          | Gives background information for better responses | Add scenario or audience                    | “Act as a teacher explaining photosynthesis to a beginner.” |
+| Role Prompting             | Assign a role to guide tone and expertise         | Define the persona of the model             | “You are a software engineer explaining APIs.”              |
+| Step-by-Step Instruction   | Break complex tasks into steps                    | Ask for sequential explanation              | “Explain machine learning training step by step.”           |
+| Output Formatting          | Specifies structure of the response               | Request tables, bullets, JSON, etc.         | “Provide the answer in a table format.”                     |
+| Constraints                | Limits length, tone, or style                     | Set word limits or tone                     | “Explain in under 100 words in simple language.”            |
+| Few-shot Prompting         | Provides examples to guide output                 | Include input-output examples               | “Translate: Hello → नमस्ते. Now translate: Good morning.”   |
+| Iterative Prompting        | Refining prompts based on outputs                 | Ask follow-up questions to improve response | “Rewrite the answer in simpler terms.”                      |
+| Chain-of-Thought Prompting | Encourages reasoning step-by-step                 | Ask the model to show reasoning             | “Solve this problem step by step.”                          |
+| Multimodal Prompting       | Uses text along with images/video                 | Provide or refer to visual input            | “Describe the objects in this image.”                       |
+
+
+
+
+
+
+
+
 
 ## Conclusion:
 By using detailed and well-crafted prompts, text-to-Video generation models can be effective in reproducing an Video closely. The quality of the generated Video depends on how accurately the prompt describes the Video's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate Videos that closely match real-world visuals, which is useful for creative and practical applications.
